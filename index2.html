@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Matias Carrizo</title>
+</head>
+<body>
+    <h1>Tarea HTML_Formularios de Matias Carrizo</h1>
+    <form>
+        <div>
+            <p>Indique su fecha de nacimiento</p>
+            <input type="date" name="fecha" min="2015-05-10" max="2016-05-10">
+            <p>Selecciona tu archivo</p>
+            <input type="file">
+        </div>
+        <div>
+            <p>Selecciona tu Microprocesador</p>
+            <input type="radio" name="procesador" value="procesadoramd">AMD
+            <input type="radio" name="procesador" value="procesadorintel_i5">Intel i5
+            <input type="radio" name="procesador" value="procesadorintel_i7">Intel i7
+        </div>
+        <div>
+            <p>Completa con tus datos</p>
+            <input type="text" name="nombre">Nombre
+            <input type="text" name="apellido">Apellido
+            <input type="text" name="direccion">Dirección
+        </div>
+        <div>
+            <p>Indica tu color favorito</p>
+            <input type="color">
+        </div>
+        <div>
+            <p>Cuentame tu experiencia en la programación</p>
+            <textarea name="texto" id="" cols="59" rows="6" placeholder="Utilice este cuadro para escribir"></textarea>
+        </div>
+        <div>
+            <p>Indica tu fecha de nacimiento</p>
+            <input type="date" name="fecha" min="2018-05-05" max="2020-10-10">
+        </div>
+        <div>
+            <p>Indica tu idioma</p>
+            <select>
+                <option value="ingles">Inglés</option>
+                <option value="aleman">Alemán</option>
+                <option value="frances">Francés</option>
+            </select>
+        </div>
+        <div>
+            <p>Indica la hora de tu pais</p>
+            <input type="time">
+            <p>Selecciona un archivo</p>
+            <input type="file">
+            <p>Indica tu sexo</p>
+            <input type="checkbox" name="sexo" value="sexomujer">Mujer
+            <input type="checkbox" name="sexo" value="sexohombre">Hombre
+        </div>
+    </form>
+    <a href="index.html">Volver a pagina principal</a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tarea HTML_Formularios de Matias Carrizo</title>
+    </head>
+    <body>
+        <h1>Tarea HTML_Formularios de Matias Carrizo</h1>
+        <form>
+            <div>
+                <p>Selecciona tu idioma</p>
+                <input type="radio" name="idiomas" value="idiomaingles">Inglés
+                <input type="radio" name="idiomas" value="idiomaaleman">Alemán
+                <input type="radio" name="idiomas" value="idiomafrances">Francés
+            </div>
+            <div>
+                <p>Selecciona tu conector</p>
+                <select name="Conector">
+                    <option value="usb">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select>
+            </div>
+            <div>
+                <p>Nombre</p>
+                <input type="text" name="nombre">
+                <p>Apellido</p>
+                <input type="text" name="apellido">
+            </div>
+            <div>
+                <p>Selecciona tu sexo</p>
+                <select name="sexo" multiple>
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+            </div>
+            <div>
+                <p>Sexo</p>
+                <input type="checkbox" name="sexo" value="sexomujer">Mujer
+                <input type="checkbox" name="sexo" value="sexohombre">Hombre
+            </div>
+            <div>
+                <p>Indique su fecha</p>
+                <input type="date" name="fecha" min="2015-01-05" max="2022-08-28">
+            </div>
+        </form>
+        <a href="index2.html" target="_blank">Siguiente pagina</a>
+    </body>
+</html>
